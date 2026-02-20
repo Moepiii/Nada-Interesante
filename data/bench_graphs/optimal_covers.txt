@@ -1,0 +1,14 @@
+# Archivo de soluciones óptimas conocidas para benchmarks
+# Formato: nombre_archivo: tamaño_cover_optimo
+brock200_2.edgelist: 188
+brock400_2.edgelist: 371
+brock800_2.edgelist: 776
+C125.9.edgelist: 91
+DSJC500_5.edgelist: 487
+gen200_p0.9_44.edgelist: 156
+hamming10-4.edgelist: 984
+hamming8-4.edgelist: 240
+keller4.edgelist: 160
+keller5.edgelist: 749
+MANN_a27.edgelist: 252
+p_hat300-1.edgelist: 292

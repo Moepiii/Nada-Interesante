@@ -1,78 +1,49 @@
-### OS
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.nav
+*.snm
+*.vrb
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.xdv
+
+# OS/editor
 .DS_Store
 Thumbs.db
-
-### Editor/IDE
-.vscode/
-.idea/
 *.swp
 *.swo
-
-### Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-### Go (backend)
-backend/bin/
-backend/*.exe
-backend/*.exe~
-backend/*.dll
-backend/*.so
-backend/*.dylib
-backend/*.test
-backend/*.out
-backend/coverage.out
-backend/.env
-backend/.env.local
-backend/.env.development
-backend/.env.*.local
-backend/node_modules/
-
-### Node/Vite (frontend)
-frontend/node_modules/
-frontend/dist/
-frontend/.env
-frontend/.env.local
-frontend/.env.*.local
-frontend/.cache/
-frontend/.eslintcache
-
-### Cypress
-frontend/cypress/videos/
-frontend/cypress/screenshots/
-
-### Test/coverage
-frontend/coverage/
-backend/coverage/
-
-### Root (Ra�z)
-.env
-.env.local
-
-### Prisma Specific
-*.db
-*.db-journal
-backend/prisma-cli-*
-backend/query-engine-*
-backend/schema-engine-*
-
-### Misc
 *.tmp
-*.temp
 
-### Node Modules
-node_modules/
+# Build directories
+/build/
+/_build/
+/out/
 
-### env files
-.env.neon
-.env.local
-.env.development
-.env.test
-.env.production
-.env.*.local
+# Python cache/venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
 
-## Backlog
-Product Backlog.pdf
+# Extensiones de Visual Studio y carpetas de sistema
+.vs/
+.slnx
+*.vsidx
+bin/
+obj/
+*.suo
+*.user
